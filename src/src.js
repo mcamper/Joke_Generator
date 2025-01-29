@@ -19,4 +19,12 @@ new Typewriter("h1", {
 
 
 
+apiKey = "77ao6ba83c370f60fbc94613061ab8t5";
+apiUrl = "https://official-joke-api.appspot.com/random_joke";
 
+axios.get(apiUrl).then(showJoke);
+
+function showJoke(response) {
+    console.log(response.data.setup);
+    console.log(response.data.setup.punchline);
+}
