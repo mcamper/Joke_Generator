@@ -16,14 +16,15 @@ h1 {
     
     
 }
-.joke-generator {
+.joke_generator_button {
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     border-radius: 30px;
     font-size: 36px;
     font-weight: bold;
     background-color: #ffa34d;
+    border: none;
    
    }
