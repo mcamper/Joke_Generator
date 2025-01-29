@@ -10,8 +10,9 @@ body {
 h1 {
     color: #ffa34d;
     text-align: center;
-    margin: 40px;
-    font-size: 72px;
+    width: 100%;
+    font-size: 60px;
+    margin: 80px;
     
     
 }
@@ -19,7 +20,7 @@ h1 {
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     border-radius: 30px;
     font-size: 36px;
     font-weight: bold;
