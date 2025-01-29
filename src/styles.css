@@ -16,7 +16,7 @@ h1 {
     
     
 }
-.joke_generator_button {
+#joke_generator_button {
     display: block;
     margin: 0 auto;
     text-align: center;

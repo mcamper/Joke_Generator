@@ -1,6 +1,6 @@
 
 
-let joke_generator_button = document.querySelector('.joke_generator_button');
+let joke_generator_button = document.querySelector('#joke_generator_button');
 joke_generator_button.addEventListener('click', generateJokes);
 
 function generateJokes(){
