@@ -8,6 +8,8 @@ new Typewriter("h1", {
     cursor: " ",
   });
 
+  
+
   let joke_generator_button = document.querySelector('#joke_generator_button');
   joke_generator_button.addEventListener('click', generateJokes);
 
@@ -33,6 +35,12 @@ function showJoke(response) {
     answerElement.style.display = "none";
 
     revealAnswerButton.style.display = "inline-block";
+
+    new Typewriter("riddle", {
+        strings: "response.data.setup",
+        autoStart: true,
+        cursor: " ",
+      });
 
 }
 

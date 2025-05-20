@@ -34,3 +34,12 @@ h1 {
 #reveal_answer {
     display: none;
 }
+
+#riddle {
+    color: white;
+    font-size: 36px;
+}
+#answer {
+    color: white;
+    font-size: 36px;
+}
